@@ -2,16 +2,14 @@
 {
     public class Persona
     {
-        /*CREATE TABLE T_Persona (
-    usuario VARCHAR(50) PRIMARY KEY,
-    nombre VARCHAR(50),
-    apellido VARCHAR(50),
-    fecha_reg DATE,
-    telefono VARCHAR(15),
-    email VARCHAR(100),
-	contrasena varchar(255),
-    DNI VARCHAR(15)
-);*/
-        public String 
+        public string usuario { set; get; }
+        public string nombre { set; get; }
+        public string apellido { set; get; }
+        public string dni { set; get; }
+        public DateTime fecha_reg { set; get; }
+        public string telefono { set; get; }
+        public string email { set; get; }
+        public string contrasena { set; get; }
+
     }
 }
